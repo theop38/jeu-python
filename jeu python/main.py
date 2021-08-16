@@ -213,14 +213,14 @@ while jouer:
         break
 
 credit = font.render("Credit", 1, (255,255,255))
-TiltGang = font.render("TiltGang Team:", 1, (255,255,255))
-theo = font.render("Théo Patrac : Programmer", 1, (255,255,255))
-antoine = font.render("Antoine Delabie : Background artist and programmer", 1, (255,255,255))
-moyad = font.render("Moyad Ahamed : Lead game designer", 1, (255,255,255))
-nicolas = font.render("Nicolas Foray : Narrative director and animator", 1, (255,255,255))
+TiltGang = font.render("-----------:", 1, (255,255,255))
+theo = font.render("--------- : Programmer", 1, (255,255,255))
+antoine = font.render("------- : Background artist and programmer", 1, (255,255,255))
+moyad = font.render("---------------- : Lead game designer", 1, (255,255,255))
+nicolas = font.render("---------------- : Narrative director and animator", 1, (255,255,255))
 help = font.render("#With the help of :", 1, (255,255,255))
-starchild = font.render("Starchild : Composer", 1, (255,255,255))
-kylpet = font.render("Kylpet : Character artist", 1, (255,255,255))
+starchild = font.render("------------- : Composer", 1, (255,255,255))
+kylpet = font.render("----------- : Character artist", 1, (255,255,255))
 
 if game_over:
     decor = pygame.image.load('images/game_over.png')
