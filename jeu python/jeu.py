@@ -13,9 +13,8 @@ class Jeu:
         self.aubergines = pygame.sprite.Group()
         self.pressed = {}
         self.counter = 0
-        self.creer_aubergine()
-        self.creer_aubergine()
-        self.creer_aubergine()
+        for i in range(1, 3)
+              self.creer_aubergine()
         self.n_aubergines_detruites = 0
         self.boss_lvl1 = False
         self.boss_lvl1_detruit = False
@@ -24,9 +23,8 @@ class Jeu:
         self.check_n = -100
 
     def lvl2_mob_spawn(self):
-        self.creer_aubergine()
-        self.creer_aubergine()
-        self.creer_aubergine()
+       for i in range(1, 3)
+              self.creer_aubergine()
         self.lvl2_started = True
 
     def boss_lvl1_active(self):
